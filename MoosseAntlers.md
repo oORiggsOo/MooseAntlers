@@ -1,3 +1,3 @@
 layout: page
 title: "MooseAntlers"
-permalink: /URL-PATH
+permalink: [/URL-PATH](https://ooriggsoo.github.io/MooseAntlers/)
