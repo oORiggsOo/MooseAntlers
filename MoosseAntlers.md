@@ -1,3 +1,3 @@
 layout: page
-title: "PAGE-TITLE"
+title: "MooseAntlers"
 permalink: /URL-PATH
