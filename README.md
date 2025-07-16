@@ -1,4 +1,4 @@
-![image](.site/Moose.jpg "MooseAntlers")
+![image](.site/Moose.png "MooseAntlers")
 
 
 Readme for MoosAntlers
