@@ -1,4 +1,4 @@
-![image](./.github/workflows/Moose.png "MooseAntlers")
+![image](.github/workflows/Moose.png "MooseAntlers")
 
 
 Readme for MoosAntlers
