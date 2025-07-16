@@ -1,5 +1,5 @@
 ![image](.site/Moose.png "MooseAntlers")
 
 
-Readme for MoosAntlers
+Readme for MooseAntlers ZMK Firmware Module
 
