@@ -1,3 +1,6 @@
+
+name: MooseAntlers
+
 build:
   settings:
     board_root: .
