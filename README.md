@@ -1,4 +1,4 @@
-![image](.site/Moose.png "MooseAntlers")
+![image](.github/workflows/.site/Moose.png "MooseAntlers")
 
 
 Readme for MooseAntlers ZMK Firmware Module
