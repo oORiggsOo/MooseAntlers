@@ -1,0 +1,7 @@
+
+config SHIELD_MY_KEYBOARD_LEFT
+    def_bool $(shields_list_contains,MooseAntlers_L)
+
+
+config SHIELD_MY_KEYBOARD_RIGHT
+    def_bool $(shields_list_contains,MooseAntlers_R)

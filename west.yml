@@ -12,7 +12,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: ec-support-zmk-module
-      remote: oORiggsOo
+      remote: MooseAntlers
       revision: main
     - name: MooseAntlers
       remote: MooseAntlers
