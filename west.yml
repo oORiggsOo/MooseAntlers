@@ -1,11 +1,21 @@
 manifest:
   remotes:
-    - name: remote-name
-      url-base: https://github.com/remote-name
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: oORiggsOo
+      url-base: https://github.com/oORiggsOo
+    - name: MooseAntlers
+      url-base: https://github.com/MooseAntlers
   projects:
-    # Together with the above defined remote, this refers to a module located at
-    # https://github.com/remote-name/repository-name
-    - name: repository-name
-      remote: remote-name
-      # This points to a west manifest file in the remote module for further imports
-      import: west.yml
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: ec-support-zmk-module
+      remote: oORiggsOo
+      revision: main
+    - name: zmk-keyboards-MooseAntlers
+      remote: MooseAntlers
+      revision: main
+  self:
+    path: config
