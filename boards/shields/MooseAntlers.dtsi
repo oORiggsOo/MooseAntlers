@@ -19,6 +19,7 @@
          zephyr,display = &oled;
             zmk,kscan = &kscan0;
             zmk,physical-layout = &MooseAntlers_Key_layout;
+            zmk,backlight = &backlight;
         };
 
         default_transform: keymap_transform_0 {
@@ -76,4 +77,13 @@
             prechargep = <0x22>;
         };
      };
+
+     {
+    backlight: pwmleds {
+        compatible = "pwm-leds";
+        pwm_led_0 {
+            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
+        };
+    };
+  };
 };

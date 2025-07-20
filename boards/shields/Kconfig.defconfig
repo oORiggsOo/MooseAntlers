@@ -1,5 +1,7 @@
-if SHIELD_MY_KEYBOARD_LEFT
 
+
+
+if SHIELD_MY_KEYBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "MooseAntlers"
@@ -15,3 +17,14 @@ config ZMK_SPLIT
     default y
 
 endif
+
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
